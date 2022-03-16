@@ -1,0 +1,22 @@
+name: postfacto
+
+up:
+  - homebrew:
+    - redis
+    - mysql-client@5.7:
+        or:        [mysql@5.7]
+        conflicts: [mysql-connector-c, mysql, mysql-client]
+  - ruby: 2.7.3
+  - bundler:
+      gemfile: api/Gemfile
+  # - database:
+  #     bootstrap: pushd api && bundle exec rake db:setup
+  #     migrate: pushd api && bundle exec rake db:migrate
+  #     database: retro_app_development
+  #     host: localhost
+  #     user: root
+  #     password: ""
+
+commands:
+  test:
+    run: pushd api && bundle exec rake spec

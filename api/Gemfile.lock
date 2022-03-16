@@ -176,7 +176,6 @@ GEM
     parallel (1.20.1)
     parser (3.0.1.1)
       ast (~> 2.4.1)
-    pg (1.2.3)
     premailer (1.15.0)
       addressable
       css_parser (>= 1.6.0)
@@ -343,7 +342,6 @@ DEPENDENCIES
   jwt
   listen
   mysql2
-  pg
   premailer-rails (>= 1.11.1)
   pry
   pry-byebug

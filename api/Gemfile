@@ -74,5 +74,4 @@ end
 group :production do
   gem 'redis', '~> 3.3.3'
   gem 'mysql2'
-  gem 'pg'
 end
