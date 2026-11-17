@@ -1,3 +1,5 @@
+> **This repository is no longer maintained.** It has been archived by Shopify and receives no updates or security fixes.
+
 # Postfacto
 [![Build Status](https://github.com/pivotal/postfacto/actions/workflows/push.yml/badge.svg)](https://github.com/pivotal/postfacto/actions/workflows/push.yml)
 
